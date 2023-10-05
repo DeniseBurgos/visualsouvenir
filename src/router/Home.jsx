@@ -26,7 +26,7 @@ const Home = () => {
         </div>
         <div className="flex mx-24 lg:ml-44">
           <a
-            href="/#/Portfolio" // Cambia la URL por la de tu portafolio
+            href="/portfolio" // Cambia la URL por la de tu portafolio
             className="group relative inline-block h-12 px-8 bg-white text-lg font-bold text-[#363435] leading-10 border border-brown-500 rounded-none hover:bg-amber-900 hover:text-white hover:border-brown-700 transform transition-all duration-300 hover:scale-105"
           >
             Mira mis trabajos aquí
