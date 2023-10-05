@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "../Components/NavBar";
+import Navbar from "../router/NavBar";
 import { Typography } from "@material-tailwind/react";
 
 const currentYear = new Date().getFullYear();

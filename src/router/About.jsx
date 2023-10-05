@@ -47,7 +47,7 @@ const About = () => {
         </p>
         {/* Agrega más párrafos aquí si es necesario */}
         <a
-          href="/contact"
+          href="/#/contact"
           className="group relative inline-block h-12 px-8 mt:6 lg:mt-16 bg-white text-lg font-bold text-[#363435] leading-10 border border-brown-500 rounded-none hover:bg-amber-900 hover:text-white hover:border-brown-700 transform transition-all duration-300 hover:scale-105"
         >
           Contactame para un presupuesto

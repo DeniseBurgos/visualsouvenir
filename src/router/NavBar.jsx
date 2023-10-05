@@ -21,7 +21,7 @@ const NavBar = () => {
     <nav className="bg-white text-slate-950 py-8 flex items-center justify-between mr-36">
       {/* Logo y nombre */}
       <NavLink to="/" className="ml-8 flex items-center">
-        <img src="logovisual1.jpeg" alt="logo" className="w-16 h-16" />
+        <img src="/logovisual1.jpeg" className="w-16 h-16" />
         <div className="text-3xl font-light ml-2">Visual Souvenir</div>
       </NavLink>
 
@@ -59,7 +59,7 @@ const NavBar = () => {
       >
         <NavLink
           exact
-          to="/"
+          to="/#"
           className="text-lg font-semibold hover:text-amber-700 transition"
           activeClassName="border-b-2 border-amber-700"
           onClick={closeMenu}
